@@ -1,0 +1,334 @@
+$font-color: rgb(159, 122, 73);
+
+
+.shopMain {
+    width: 100%;
+    position: relative;
+    top: 80px;
+    padding: 0 12%;
+    overflow-x: hidden;
+
+    @media screen and (max-width:1100px) {
+        padding: 0 8%;
+    }
+}
+
+.collectionContainer {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+    margin: 200px 0;
+}
+
+.filterBox {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    div {
+        width: 100%;
+
+        & > p {
+            width: 100%;
+            height: 40px;
+            font-size: 20px;
+            background-color: antiquewhite;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            border-left: 3px solid rgb(175, 58, 15);
+            margin-bottom: 20px;
+        }
+    }
+
+    & > button {
+        width: 70%;
+        height: 25px;
+        font-size: 18px;
+        border: 1px solid;
+        background-color: $font-color;
+        cursor: pointer;
+        margin-left: 10px;
+    }
+
+    @media screen and (max-width:750px) {
+        display: none;
+    }
+}
+
+.inputsBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    & > input {
+        width: calc(100% / 2 - 10px);
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid;
+        padding-left: 10px;
+        font-size: 18px;
+    }
+}
+
+.colorsBox {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding-left: 10px;
+    transition: .5s;
+
+    label {
+        width: 30%;
+        font-size: 18px;
+
+        
+    }
+
+    &:hover label{
+        background-color: $font-color;
+    }
+}
+
+.materialBox {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+
+    & > button {
+        width: 70%;
+        height: 25px;
+        border: none;
+        font-size: 17px;
+        cursor: pointer;
+        transition: .5s;
+
+        &:hover {
+            background-color: $font-color;
+        }
+    }
+}
+
+
+.collectionContent {
+    width: 70%;
+
+    @media screen and (max-width:750px) {
+        width: 100%;
+    }
+}
+
+.filterAndSort {
+    margin-bottom: 20px;
+    font-weight: 500;
+    display: none;
+
+    i {
+        margin-right: 10px;
+    }
+
+    @media screen and (max-width:750px) {
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.gridBox {
+    width: 100%;
+    height: 60px;
+    border: 1px solid $font-color;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 0 20px;
+}
+
+.listBox {
+    width: 8%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+
+
+    i {
+        font-size: 24px;
+        color: $font-color;
+        cursor: pointer;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+        padding: 4px;
+    }
+
+    .activeButton {
+    background-color: $font-color ;
+
+
+    i {
+        color: #fff;
+    }
+} 
+}
+
+
+.productsCount {
+
+    p {
+        font-size: 20px;
+    }
+}
+
+
+.collectionBox{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    & > a{
+        width: calc(100% / 3 - 20px);
+        height: 400px;
+
+        @media screen and (max-width:990px) {
+            width: calc(100% / 2 - 20px);
+        }
+
+        @media screen and (max-width:500px) {
+            width: 100%;
+        }
+    }
+}
+
+.collectionList{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    & > div{
+        width: 100%;
+        height: 250px;
+    }
+}
+
+
+.filterBoxMobile {
+    width: 50%;
+    height: 100vh;
+    background-color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-left: 20px;
+    position: absolute;
+    top: 0;
+    right: -50%;
+    z-index: 1;
+    transition: .5s;
+
+    div {
+        width: 100%;
+
+        & > p {
+            width: 90%;
+            height: 40px;
+            font-size: 20px;
+            background-color: antiquewhite;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+            border-left: 3px solid rgb(175, 58, 15);
+            margin-bottom: 20px;
+            font-weight: 600;
+        }
+    }
+}
+
+.inputsBoxMobile {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+
+    input {
+        width: 40%;
+        height: 30px;
+        border: none;
+        border-bottom: 1px solid;
+    }
+}
+
+.colorsBoxMobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    label {
+        width: 40%;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 500;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.materialBoxMobile {
+    width: 100%;
+
+    button {
+        width: 50%;
+        height: 25px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: 500;
+    }
+}
+
+.buttonsBoxMobile {
+    width: 100%;
+    display: flex;
+    gap: 10px;
+
+    button {
+        width: 40%;
+        height: 30px;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+    }
+
+    button:nth-child(1) {
+        background-color: $font-color;
+    }
+
+    button:nth-child(2) {
+        background-color: #bec2bf;
+    }
+}
+
+.active{
+    right: 0;
+    top: 0;
+}
+
+.filterCloseBtn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+
+    & > i {
+        font-size: 20px;
+    }
+}

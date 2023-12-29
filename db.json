@@ -1,0 +1,132 @@
+{
+  "AllWatches": [
+    {
+      "id": "1",
+      "name": "Black 3 In 1 Analog Stainless Steel",
+      "img": "../public/images/Black3In1AnalogStainlessSteel.jpg",
+      "price": "22.54",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Black",
+      "material": "Steel"
+    },
+    {
+      "id": "2",
+      "name": "Golden Black Analog Automatic",
+      "img": "../public/images/GoldenBlackAnalogAutomatic.png",
+      "price": "22.54",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Black",
+      "material": "Rubber"
+    },
+    {
+      "id": "3",
+      "name": "Golden Analog Watch",
+      "img": "../public/images/GoldenAnalogWatch.png",
+      "price": "32.65",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Black",
+      "material": "Leather"
+    },
+    {
+      "id": "4",
+      "name": "White Stainless Steel Analog",
+      "img": "../public/images/WhiteStainlessSteelAnalog.jpg",
+      "price": "22.65",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "White",
+      "material": "Rubber"
+    },
+    {
+      "id": "5",
+      "name": "Gold Case Black Dial Automatic",
+      "img": "../public/images/GoldCaseBlackDialAutomatic.jpg",
+      "price": "25",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Yellow",
+      "material": "Rubber"
+    },
+    {
+      "id": "6",
+      "name": "Black Stainless Steel Automatic",
+      "img": "../public/images/BlackStainlessSteelAutomatic.png",
+      "price": "12.75",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Grey",
+      "material": "Stainless Steel"
+    },
+    {
+      "id": "7",
+      "name": "Black Leather 3 In 1 Automatic",
+      "img": "../public/images/BlackLeather3In1Automatic.jpg",
+      "price": "18",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Black",
+      "material": "Rubber"
+    },
+    {
+      "id": "8",
+      "name": "Classic Roman Black Dial",
+      "img": "../public/images/ClassicRomanBlackDial.png",
+      "price": "12.45",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Yellow",
+      "material": "Stainless Steel"
+    },
+    {
+      "id": "9",
+      "name": "Golden Analog Girls",
+      "img": "../public/images/GoldenAnalogGirls.jpg",
+      "price": "22.00",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Yellow",
+      "material": "Leather"
+    },
+    {
+      "id": "10",
+      "name": "Black Analog Roman",
+      "img": "../public/images/BlackAnalogRoman.png",
+      "price": "22.00",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Black",
+      "material": "Steel"
+    },
+    {
+      "id": "11",
+      "name": "Platinum Numeral Semi Automatic",
+      "img": "../public/images/PlatinumNumeralSemiAutomatic.jpg",
+      "price": "22.11",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "White",
+      "material": "Stainless Steel"
+    },
+    {
+      "id": "12",
+      "name": "Red On Black Numeral Dial",
+      "img": "../public/images/RedonBlackNumeralDial.png",
+      "price": "22.47",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Red",
+      "material": "Steel"
+    },
+    {
+      "id": "13",
+      "name": "Black Analog Numeral",
+      "img": "../public/images/BlackAnalogNumeral.png",
+      "price": "18.00",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Black",
+      "material": "Silicone"
+    },
+    {
+      "id": "14",
+      "name": "Golden Analog Numeral",
+      "img": "../public/images/GoldenAnalogNumeral.jpg",
+      "price": "12.47",
+      "productInfo": "Everyone must have a product in their wardrobe. Wear these watches and start admiring everyone who is staring at you. Everyone loves this fashionable, trendsetting design. It is a 100%...",
+      "color": "Yellow",
+      "material": "Leather"
+    }
+  ],
+  "colorCategory":["Yellow","Black","Red","White","Grey"],
+  "materialCategory":["Leather","Silicone","Stainless","Stainless Steel","Steel","Rubber"]
+}

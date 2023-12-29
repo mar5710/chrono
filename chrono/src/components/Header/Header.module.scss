@@ -1,0 +1,263 @@
+$font-color: rgb(159, 122, 73);
+
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #000;
+    color: #fff;
+    padding: 0 2%;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+        width: 80%;
+    }
+
+    @media screen and (max-width:750px) {
+        width: 40%;
+    }
+}
+
+.nav {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            width: calc(100% / 3);
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-size: 14px;
+                font-weight: 300;
+                transition: .4s;
+
+                &:hover {
+                    color: rgb(195, 122, 73);
+                }
+
+                &.linkActive{
+                    color:$font-color
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:750px) {
+        display: none;
+    }
+}
+
+.burgerMenu {
+    display: none;
+    flex-direction: column;
+    gap: 3px;
+
+    & > div{
+        width: 20px;
+        height: 3px;
+        background-color: #fff;
+    }
+
+
+    @media screen and (max-width:750px) {
+            display: flex;
+    }
+}
+
+.headerIcons {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.heartIcon {
+    width: calc(100% / 3);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    & > i {
+            color: #fff;
+            cursor: pointer;
+
+            &:hover {
+                color: rgb(195, 122, 73);
+            }
+        }
+
+    img {
+        width: 30px;
+        height: 15px;
+        cursor: pointer;
+
+        
+    }
+
+    & > div {
+        width: 70px;
+        padding: 8px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+        position: absolute;
+        bottom: -40px;
+        background-color: #00000073;
+        border-radius: 5px;
+
+        & > button{
+            cursor: pointer;
+        }
+    }
+}
+
+.mobileNavBox{
+    height: 100vh;
+    width: 50%;
+    position: fixed;
+    right: -50%;
+    top: 0;
+    z-index: 1000;
+    background-color: #000;
+    transition: .5s;
+}
+
+.mobileNavBox.active{
+    right: 0;
+}
+
+.navCloseBtn{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    & > i {
+        font-size: 20px;
+    }
+}
+
+.mobileNav {
+    width: 100%;
+    height: 30%;
+    margin-bottom: 300px;
+
+    & > ul {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        & > li {
+            width: 100%;
+            display: flex;
+            justify-content: start;
+            padding-left: 30px;
+            transition: .5s;
+
+            & > a {
+                width: 100%;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                font-size: 16px;
+                color: #fff;
+            }
+
+            &:hover {
+                background: #131212;
+            }
+        }
+    }
+}
+
+.account {
+    height: 30%;
+}
+
+.accountBox {
+    height: 50%;
+    display: flex;
+    gap: 10px;
+    padding: 20px 30px;
+    background: #131212;
+    cursor: pointer;
+
+    & > i {
+        font-size: 20px;
+        transition: .5s;
+    }
+
+    & > span {
+        transition: .5s;
+    }
+
+    &:hover  span{
+        color: $font-color;
+    }
+
+    &:hover  i{
+        color: $font-color;
+    }
+}
+
+.contentBox {
+    height: 50%;
+    display: flex;
+    gap: 10px;
+    padding-left: 30px;
+    background: #131212;
+
+    & > i {
+        font-size: 20px;
+    }
+}
+
+
+.favoriteBox {
+    width: 40%;
+    height: calc(100vh - 80px);
+    position: fixed;
+    right: -40%;
+    top: 80px;
+    background: #131212;
+    z-index: 999;
+    transition: .5s;
+}
+
+.favoriteActive {
+    right: 0;
+}
